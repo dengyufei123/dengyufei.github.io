@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <title>美食</title>
+    <style>
+        .da{
+            width: 1500px;
+            height: 770px;
+            
+            margin: auto;
+        } 
+        .box{
+            width: 1500px;
+            height: 100px;
+            
+            float: top;
+            
+        }
+        .cencer{
+            width: 1500px;
+            height: 50px;
+            
+            text-align: center;
+            background-color: darkblue;
+        }
+        .cencer1{
+            width: 200px;
+            height: 50px;
+            
+            float: left;
+            margin-left: 250px;
+        }
+        .cencer1 a{
+            text-decoration: none;
+		    color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .cencer1 a:hover{
+            color: red;
+        }
+        .cencer1:hover{
+            background-color: blue;
+        }
+        .cencer2{
+            width: 200px;
+            height: 50px;
+           
+            float: left;
+        }
+        .cencer2 a{
+            text-decoration: none;
+		    color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .cencer2 a:hover{
+            color: red;
+        }
+        .cencer2:hover{
+            background-color: blue;
+        }
+        .cencer3{
+            width: 200px;
+            height: 50px;
+           
+            float: left;
+        }
+        .cencer3 a{
+            text-decoration: none;
+		    color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .cencer3 a:hover{
+            color: red;
+        }
+        .cencer3:hover{
+            background-color: blue;
+        }
+        .cencer4{
+            width: 200px;
+            height: 50px;
+            
+            float: left;
+        }
+        .cencer4 a{
+            text-decoration: none;
+		    color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .cencer4 a:hover{
+            color: red;
+        }
+        .cencer4:hover{
+            background-color: blue;
+        }
+        .cencer5{
+            width: 200px;
+            height: 50px;
+            
+            float: left;
+        }
+        .cencer5 a{
+            text-decoration: none;
+		    color: white;
+            text-align: center;
+            line-height: 50px;
+        }
+        .cencer5 a:hover{
+            color: red;
+        }
+        .cencer5:hover{
+            background-color: blue;
+        }
+        
+
+        .zhong{
+            width: 1299px;
+            height: 100px;
+            
+            float: left;
+            margin-top: 10px;
+            margin-left: 50px;
+            overflow: hidden;
+            background-color: beige;
+        }
+        .zhong1{
+            width: 1299px;
+            height: 400px;
+            
+            float: left;
+            margin-left: 50px;
+            background-color: white;
+            
+        }
+        .zhong1 img{
+            width: 250px;
+            height: 150px;
+            margin-left: 150px;
+            margin-top: 25px;
+        }
+        
+        .dada{
+            width: 1500px;
+            height: 515px;
+            
+            background-color: blanchedalmond;
+        }
+        .xia{
+            width: 1500px;
+            height: 95px;
+            
+            background-color: wheat;
+            text-align: center;
+        }
+        .xiaxiao{
+            width: 620px;
+            height: 25px;
+           
+            float: left;
+            margin-top: 68px;
+        }
+        .xiazhong{
+            width: 150px;
+            height: 95px;
+            
+            float: left;
+            margin-left: 725px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div class="da">
+        <div class="box">
+            <img src="img/zhenmei.jpg" alt="handsome" style="width: 100%"; height="100%">
+            
+        </div>
+        <div class="cencer">
+            <div class="cencer1">
+                <a href="index.html">首页</a>
+            </div>
+            <div class="cencer2">
+             <a href="3.html">景区</a>
+            </div>
+            <div class="cencer3">
+             <a href="4.html">美食</a>
+            </div>
+            <div class="cencer4">
+             <a href="5.html">自然保护区</a>
+            </div>
+            <div class="cencer5">
+             <a href="6.html">历史遗迹</a>
+            </div>
+         </div>
+        <div class="dada">
+            
+            <div class="zhong">
+                <h1 style="text-indent: 20em;">汉中美食</h1>
+               
+                
+            </div>
+            <div class="zhong1">
+                <img src="img/mianpi.jpg">
+                <img src="img/caidoufu.jpg">
+                <img src="img/hetaomo.jpg">
+                <img src="img/malaji.jpg">
+                <img src="img/jiangshuimian.jpg">
+                <img src="img/hongdoufu.jpg">
+
+            </div>
+           
+            
+        </div>
+        <div class="xia">
+            <div class="xiazhong">
+                <p>姓名:邓宇飞</p>
+                <p>学号:2104005131</p>
+            </div>
+            <div class="xiaxiao">
+                <label id="time"></label>
+                   <script  type="text/javascript">
+                        window.onload=function(){
+                        setInterval(function(){
+                        fnDate();},1000);
+                        }
+                        function fnDate(){
+                        var t=new Date();
+                        var year=t.getFullYear();
+                        var month=t.getMonth();
+                        var date=t.getDate();
+                        var day=t.getDay();
+                        var weekday=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+                        var curHour=t.getHours();
+                        var curMinute=t.getMinutes();
+                        var curSec=t.getSeconds();
+                        function fnw(str){
+                        var num;
+                        str>10?num=str:num="0"+str;
+                        return num;
+                        }
+                        var box=document.getElementById("time");
+                        box.innerText="今天是"+fnw(year)+"年"+fnw(month+1)+"月"+fnw(date)+"日"+
+                        fnw(curHour)+"时"+fnw(curMinute)+"分"+fnw(curSec)+"秒";
+                        }
+                    </script>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
